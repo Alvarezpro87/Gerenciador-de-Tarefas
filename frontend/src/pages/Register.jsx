@@ -44,7 +44,7 @@ const Register = () => {
             required
           />
         </div>
-        <button type="submit">Cadastrar</button>
+        <button type="button" class="btn btn-primary">Cadastrar</button>
       </form>
     </div>
   );
