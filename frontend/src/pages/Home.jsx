@@ -23,7 +23,7 @@ const Home = () => {
         </div>
         <h1 className="display-4">Bem-vindo ao Gerenciador de Tarefas</h1>
         <p className="lead text-muted">
-          Organize suas tarefas e maximize sua produtividade com nosso aplicativo.
+          Organize suas tarefas e maximize sua produtividade com este aplicativo.
         </p>
         <Link to="/register" className="btn btn-primary btn-lg mt-4">
           Comece Agora

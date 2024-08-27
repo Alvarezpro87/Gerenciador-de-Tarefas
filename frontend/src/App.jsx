@@ -6,9 +6,9 @@ function App() {
     <div>
 
       <Link to="/">Home</Link>
-      <Link to="/login">Login</Link>
-      <Link to="/register">Cadastro</Link>
+      <Link to="/login">Login</Link>      
       <Link to="/tasks">Tarefas</Link>
+      <Link to="/register">cadastrar</Link>
     </div>
   );
 }
