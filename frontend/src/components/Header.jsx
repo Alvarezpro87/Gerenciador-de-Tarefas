@@ -22,15 +22,12 @@ const Header = () => {
       </div>
       <div className="col-md-6 text-center">
         <Link to="/" className="nav-link px-2 link-primary" style={{ fontSize: '2.5rem', textDecoration: 'none' }}>
-          Gerenciador de Tarefas
+          TASK CONTROL
         </Link>
       </div>
-      <div className="col-md-3 text-end">
-        <Link to="/login" className="btn btn-outline-primary me-2">
-          Login
-        </Link>
-        <Link to="/register" className="btn btn-primary" style={{ marginRight: '20px' }}>
-          Cadastrar
+      <div className="col-md-3 text-end">       
+        <Link to="/tasks" className="btn btn-primary" style={{ marginRight: '20px' }}>
+          Gerenciamento de tarefeas
         </Link>
       </div>
     </header>

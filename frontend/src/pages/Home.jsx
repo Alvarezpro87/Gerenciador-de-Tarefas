@@ -25,7 +25,7 @@ const Home = () => {
         <p className="lead text-muted">
           Organize suas tarefas e maximize sua produtividade com este aplicativo.
         </p>
-        <Link to="/register" className="btn btn-primary btn-lg mt-4">
+        <Link to="/tasks" className="btn btn-primary btn-lg mt-4">
           Comece Agora
         </Link>
       </section>
@@ -62,21 +62,8 @@ const Home = () => {
             </p>
           </div>
         </div>
-      </section>
-
-      {/* Call to Action Section */}
-      <section className="text-center my-5">
-        <h3>Pronto para começar?</h3>
-        <p className="text-muted">
-          Cadastre-se agora e comece a organizar suas tarefas hoje mesmo!
-        </p>
-        <Link to="/register" className="btn btn-outline-primary btn-lg">
-          Criar Conta
-        </Link>
-        <Link to="/login" className="btn btn-primary btn-lg ms-3">
-          Login
-        </Link>
-      </section>
+      </section>     
+      
     </div>
   );
 };

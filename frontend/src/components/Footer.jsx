@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
       <div className="col-md-3 mb-2 mb-md-0 d-flex align-items-center">
-        <a href="/" className="d-inline-flex align-items-center text-decoration-none">
+        <a href="/" className="d-inline-flex align-items-center text-white text-decoration-none">
           <div
             className="d-flex justify-content-center align-items-center"
             style={{
@@ -16,6 +16,7 @@ const Footer = () => {
             }}
           >
             <i className="bi bi-check2-square fs-1 text-white"></i>
+            <span className="visually-hidden">Voltar para Home</span>
           </div>
         </a>
       </div>

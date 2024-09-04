@@ -4,13 +4,5 @@ const API = axios.create({
   baseURL: 'http://localhost:5000/api', // URL base da API
 });
 
-// Intercepta a requisição para adicionar o token JWT, se existir
-API.interceptors.request.use((config) => {
-  const token = localStorage.getItem('token');
-  if (token) {
-    config.headers.Authorization = `Bearer ${token}`;
-  }
-  return config;
-});
-
+// Remove o interceptor, já que não é mais necessário adicionar o token
 export default API;
